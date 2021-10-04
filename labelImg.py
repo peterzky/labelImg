@@ -1449,7 +1449,7 @@ class MainWindow(QMainWindow, WindowMixin):
             self.img_count -= 1
             if os.path.exists(delete_path):
                 os.remove(delete_path)
-            self.import_dir_images(self.last_open_dir)
+            # self.import_dir_images(self.last_open_dir)
 
     def reset_all(self):
         self.settings.reset()
